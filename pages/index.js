@@ -24,9 +24,11 @@ export default function Home() {
         </div>
         <div>
         <ImageSlider />
-        </div>
-        <ScrollingMenu />
+        </div> 
+        <ScrollingMenu />       
       </div>
+        
+      
     </Layout>
   )
 }

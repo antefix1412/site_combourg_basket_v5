@@ -306,3 +306,35 @@ footer p {
   align-items: center;
 }
 
+.scrollWrapper {
+  width: 200%; /* La largeur du conteneur, prend toute la largeur disponible */
+  overflow: hidden; /* Cache les éléments qui débordent du conteneur */
+}
+
+.scrollMenu {
+  display: flex; /* Utilise Flexbox pour organiser les images horizontalement */
+  animation: scroll 20s linear infinite; /* Animation du défilement horizontal */
+}
+
+.menuItem {
+  flex: none; /* Les éléments ne se redimensionnent pas */
+  padding: 10px; /* Padding autour des images */
+}
+
+.image {
+  width: 300px; /* Ajuste la largeur de l'image selon ton besoin */
+  height: 100px; /* Ajuste la hauteur des images */
+  object-fit: cover; /* L'image s'adapte sans déformation */
+  border-radius: 8px; /* Facultatif : arrondir les bords de l'image */
+  margin-right: 20px; /* Espace entre les images */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* Commence au début du conteneur */
+  }
+  100% {
+    transform: translateX(-50%); /* Défile jusqu'à la moitié du conteneur */
+  }
+}
+
