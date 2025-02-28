@@ -19,7 +19,7 @@ const ScrollingMenu = () => {
             <img src={src} alt={`Image ${index + 1}`} className="image" />
           </div>
         ))}
-        {/* Duplique les éléments pour un défilement infini */}
+        {/* Duplique les images pour un effet de boucle infinie */}
         {images.map((src, index) => (
           <div className="menuItem" key={index + images.length}>
             <img src={src} alt={`Image ${index + 1}`} className="image" />
