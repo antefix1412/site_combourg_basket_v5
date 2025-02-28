@@ -26,6 +26,7 @@ export default function Home() {
             alt="Équipe de basket"
             width={500}
             height={300}
+            style={{ height: "auto" }}
             layout="responsive"
             className="rounded-lg"
           />
