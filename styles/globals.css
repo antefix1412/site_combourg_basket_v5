@@ -323,7 +323,7 @@ footer p {
 
 .image {
   width: 300px; /* Ajuste la largeur de l'image selon ton besoin */
-  height: 100px; /* Ajuste la hauteur des images */
+  height: 200px; /* Ajuste la hauteur des images */
   object-fit: cover; /* L'image s'adapte sans déformation */
   border-radius: 8px; /* Facultatif : arrondir les bords de l'image */
   margin-right: 20px; /* Espace entre les images */

@@ -2,10 +2,12 @@
 import React from "react";
 
 const images = [
-  "/images/image1.jpg",  // Remplace ces chemins par les images que tu veux afficher
-  "/images/image2.jpg",
-  "/images/image3.jpg",
-  "/images/image4.jpg",
+  "/images/hyper_u.png",
+  "/images/intermarche.png",
+  "/images/le_repaire.jpg",
+  "/images/macdo.png",
+  "/images/maxivelo.png",
+  "/images/orange_bleu.png",
 ];
 
 const ScrollingMenu = () => {

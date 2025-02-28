@@ -5,7 +5,7 @@ import Image from "next/image"; // Importation du composant optimisé de Next.js
 const images = [
   "/images/image.png",
   "/images/exterieur_salle.jpeg",
-  "/images/img_qui_sommes_nous.jpg",
+  "/images/equipe_rond.jpg",
   "/images/img_index.png",
 ];
 
@@ -15,7 +15,7 @@ const ImageSlider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change toutes les 5 secondes
+    }, 2000); // Change toutes les 5 secondes
 
     return () => clearInterval(interval); // Nettoyage à la fin
   }, []);
