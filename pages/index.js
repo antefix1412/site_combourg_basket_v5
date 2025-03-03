@@ -2,6 +2,7 @@ import Layout from "../components/Layout"
 import Image from "next/image"
 import ScrollingMenu from "@/components/ScrollingMenu";
 import ImageSlider from "@/components/ImageSlider";
+import BouncingBasketball from "@/components/BouncingBasketball";
 
 
 export default function Home() {
@@ -17,20 +18,23 @@ export default function Home() {
             l'enseignement et la pratique du basket-ball sur la commune de Combourg depuis 1928. Elle dispose de 25
             équipes des babys (U7) aux vétérans. L'équipe phare du club évolue en régional masculin.
           </p>
-          <h2 className="text-2xl font-semibold mb-4">Les valeurs du club :</h2>
+          <h2 className="text-2xl font-semibold mb-4">Les valeurs du club :</h2> 
           <ul className="list-none">
             <li>🏀 Convivialité</li>
             <li>🤝 Entraide</li>
             <li>🎖️ Respect</li>
           </ul>
+          <BouncingBasketball/>
         </div>
+        
+        
         <div>
         <ImageSlider />
         </div> 
+        
         <ScrollingMenu />       
       </div>
-        
-      
+
     </Layout>
   )
 }

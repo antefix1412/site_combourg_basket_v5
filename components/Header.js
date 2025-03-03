@@ -24,7 +24,6 @@ export default function Header() {
         <Link href="/" className="flex-shrink-0 mb-4 md:mb-0">
           <Image src="/images/logo.png" alt="Logo du club" width={112} height={50} style={{ height: "auto" }} />
         </Link>
-        <BouncingBasketball />
         
         <nav className="hidden lg:block">
           <ul className="flex space-x-4">

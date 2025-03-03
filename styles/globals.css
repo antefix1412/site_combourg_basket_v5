@@ -307,6 +307,10 @@ footer p {
   padding: 1rem;
 }
 
+.menuItem:hover {
+  background-color: #555;
+}
+
 /* Images */
 .image {
   width: 200px; /* Ajuster selon les besoins */
