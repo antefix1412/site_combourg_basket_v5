@@ -4,6 +4,8 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
+import BouncingBasketball from "@/components/BouncingBasketball";
+
 
 const navigation = [
   { name: 'Accueil', href: '/' },
@@ -22,6 +24,7 @@ export default function Header() {
         <Link href="/" className="flex-shrink-0 mb-4 md:mb-0">
           <Image src="/images/logo.png" alt="Logo du club" width={112} height={50} style={{ height: "auto" }} />
         </Link>
+        <BouncingBasketball />
         
         <nav className="hidden md:block">
           <ul className="flex space-x-4">
